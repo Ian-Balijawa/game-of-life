@@ -1,0 +1,120 @@
+.controls {
+  margin: 1rem auto;
+}
+
+.grid {
+  box-sizing: content-box;
+  line-height: 0;
+  margin: auto;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.navbar-custom {
+  background-color: #34495e;
+  z-index: 1;
+  box-shadow: 0px 6px 5px 0px rgba(45, 48, 56, 1);
+  color: #fff;
+  padding-left: 20px;
+  padding-bottom: 2px;
+  font-weight: bold;
+  display: block;
+  height: fit-content;
+}
+
+.nav-link {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #a5a5a5;
+}
+
+.nav-link:focus {
+  color: #666e67;
+}
+
+.nav-link.disabled {
+  color: #7a95a3;
+}
+.dropdown-menu {
+  border-radius: 10px;
+  background-color: #34495e;
+  padding: 2px;
+}
+
+.dropdown-item {
+  border-radius: 8px;
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  color: #20fff4;
+  background-color: #34495e;
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  padding: 0;
+  display: inline-block;
+
+  border: 1px solid #34495e;
+  margin-right: 0;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+.cell-on {
+  box-sizing: content-box;
+  width: 15px;
+  height: 15px;
+  border-radius: 20%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  border: 1px solid #34495e;
+  background-color: #0c3547;
+}
+
+.cell-off {
+  box-sizing: content-box;
+  width: 15px;
+  border-radius: 20%;
+  height: 15px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  border: 1px solid #34495e;
+  background-color: #fff;
+}
+
+@keyframes cell-on-anim {
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  margin: 5px 1rem;
+  background: #0c3547;
+  color: white;
+}
+
+button:hover {
+  background: #011627;
+}
