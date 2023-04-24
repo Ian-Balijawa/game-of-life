@@ -21,7 +21,7 @@ To run this project locally, you will need to have Node.js installed. Clone this
 
 ## Technologies Used
 
-This project was built using React.
+This project was built using React and bootstrap
 
 ## Contributing
 
